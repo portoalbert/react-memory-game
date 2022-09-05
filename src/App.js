@@ -65,13 +65,17 @@ function App() {
       scoreKeeper();
       shuffle(picArray);
     }
-    function scoreKeeper() {
-      setScore(score + 1);
-      if (score >= highScore) {
-        setHighScore(score + 1);
-      }
+  }
+  function scoreKeeper() {
+    setScore(score + 1);
+    if (score >= highScore) {
+      setHighScore(score + 1);
     }
   }
+  const newList = picArray.map(function (index) {
+    return <Card name={index} onClick={() => engine(index)} />;
+  });
+  console.log(newList);
   return (
     <div className="App">
       <div className="header">
@@ -89,20 +93,7 @@ function App() {
           <p>High Score: {highScore}</p>
         </div>
       </div>
-      <div className="main">
-        <Card name={picArray[0]} onClick={() => engine(picArray[0])} />
-        <Card name={picArray[1]} onClick={() => engine(picArray[1])} />
-        <Card name={picArray[2]} onClick={() => engine(picArray[2])} />
-        <Card name={picArray[3]} onClick={() => engine(picArray[3])} />
-        <Card name={picArray[4]} onClick={() => engine(picArray[4])} />
-        <Card name={picArray[5]} onClick={() => engine(picArray[5])} />
-        <Card name={picArray[6]} onClick={() => engine(picArray[6])} />
-        <Card name={picArray[7]} onClick={() => engine(picArray[7])} />
-        <Card name={picArray[8]} onClick={() => engine(picArray[8])} />
-        <Card name={picArray[9]} onClick={() => engine(picArray[9])} />
-        <Card name={picArray[10]} onClick={() => engine(picArray[10])} />
-        <Card name={picArray[11]} onClick={() => engine(picArray[10])} />
-      </div>
+      <div className="main">{newList}</div>
     </div>
   );
 }

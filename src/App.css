@@ -31,8 +31,8 @@ body {
     padding: 15px;
 }
 .card img{
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
 }
 .card img:hover {
     box-shadow: 0 0 11px rgba(241, 237, 11, 0.967); 
