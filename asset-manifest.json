@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-memory-game/static/css/main.493a481d.css",
-    "main.js": "/react-memory-game/static/js/main.87ecc0a0.js",
+    "main.js": "/react-memory-game/static/js/main.cd4cc8ea.js",
     "static/media/pikafive.png": "/react-memory-game/static/media/pikafive.94406aacc94001ea629e.png",
     "static/media/pikachu.png": "/react-memory-game/static/media/pikachu.696e1fdfed4cbdb5dbb9.png",
     "static/media/pikathree.png": "/react-memory-game/static/media/pikathree.c4195d5e28189177bc51.png",
@@ -16,10 +16,10 @@
     "static/media/pikatwe.png": "/react-memory-game/static/media/pikatwe.a3f2b353ff51e278928f.png",
     "index.html": "/react-memory-game/index.html",
     "main.493a481d.css.map": "/react-memory-game/static/css/main.493a481d.css.map",
-    "main.87ecc0a0.js.map": "/react-memory-game/static/js/main.87ecc0a0.js.map"
+    "main.cd4cc8ea.js.map": "/react-memory-game/static/js/main.cd4cc8ea.js.map"
   },
   "entrypoints": [
     "static/css/main.493a481d.css",
-    "static/js/main.87ecc0a0.js"
+    "static/js/main.cd4cc8ea.js"
   ]
 }
