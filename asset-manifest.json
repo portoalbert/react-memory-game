@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/react-memory-game/static/css/main.e2866eaf.css",
+    "main.js": "/react-memory-game/static/js/main.e4199d91.js",
+    "static/media/pikafive.png": "/react-memory-game/static/media/pikafive.94406aacc94001ea629e.png",
+    "static/media/pikachu.png": "/react-memory-game/static/media/pikachu.696e1fdfed4cbdb5dbb9.png",
+    "static/media/pikathree.png": "/react-memory-game/static/media/pikathree.c4195d5e28189177bc51.png",
+    "static/media/pikafour.png": "/react-memory-game/static/media/pikafour.826f68091a07a483502d.png",
+    "static/media/pikaten.png": "/react-memory-game/static/media/pikaten.7e4f8b1425cf90f0ee23.png",
+    "static/media/pikanin.png": "/react-memory-game/static/media/pikanin.fcf69bec5ed57517450a.png",
+    "static/media/pikatwo.png": "/react-memory-game/static/media/pikatwo.91cfcbb12dc6b9bf5500.png",
+    "static/media/pikasix.webp": "/react-memory-game/static/media/pikasix.d1c62b40b6c6e5ae1d8f.webp",
+    "static/media/pikaeig.webp": "/react-memory-game/static/media/pikaeig.33f15ad0ec10752887ea.webp",
+    "static/media/pikasev.webp": "/react-memory-game/static/media/pikasev.267929c9081dbf519714.webp",
+    "static/media/pikaele.png": "/react-memory-game/static/media/pikaele.bedffeec31cf4bf93805.png",
+    "static/media/pikatwe.png": "/react-memory-game/static/media/pikatwe.a3f2b353ff51e278928f.png",
+    "index.html": "/react-memory-game/index.html",
+    "main.e2866eaf.css.map": "/react-memory-game/static/css/main.e2866eaf.css.map",
+    "main.e4199d91.js.map": "/react-memory-game/static/js/main.e4199d91.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e2866eaf.css",
+    "static/js/main.e4199d91.js"
+  ]
+}
